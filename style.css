@@ -1,0 +1,181 @@
+body {
+    box-sizing: border-box;
+    margin:0;
+    display: grid;
+    padding: 0;
+    background-color: black;
+}
+ 
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul {
+    display: grid;
+    grid-template-areas:'a b c d e f g'
+                        'h i j k l m n'
+                        'o p q r s t u'
+                        'v w x y z ll kk';
+    grid-template-rows: 375px 375px 125px 125px;
+    grid-template-columns: 142px 200px 284px 200px 284px 150px 142px;
+    /* box-shadow: 1px 3px 8px rgba(0,0,0,0.5); */
+}
+
+li {
+    height: 100%;
+    border: 10px solid black;
+    background-size: cover;
+}
+
+li:nth-child(1) {
+    grid-area: a;
+    background-color: white; 
+    border-left: none;
+    border-top: none;
+}
+
+li:nth-child(2) {
+    grid-area: b;
+    background-color: yellow;
+    border-top: none;
+}
+
+  li:nth-child(3) {
+    grid-area: c;
+    background-color: blue;
+    border-top: none;
+  }
+  li:nth-child(4) {
+    grid-area: d;
+    background-color:red;
+    border-right: none;
+  }
+  li:nth-child(5) {
+    grid-area: e;
+    background-color: red;
+    border-left: none;
+
+  }
+  li:nth-child(6) {
+    grid-area: f;
+    /* grid-row: span 4; */
+    background-color:yellow;
+  }
+  li:nth-child(7) {
+    grid-area: g;
+    background-color: white;
+  }
+  li:nth-child(8) {
+    grid-area: h;
+    background-color: white;
+    border-left: none;
+  }
+  li:nth-child(9) {
+    grid-area: i;
+    background-color: white;
+  }
+  li:nth-child(10) {
+    grid-area: j;
+    background-color: white;
+  }
+  li:nth-child(11) {
+    grid-area: k;
+    background-color: white;
+  }
+  li:nth-child(12) {
+    grid-area: l;
+    background-color: blue;
+  }
+  li:nth-child(13) {
+    grid-area: m;
+    background-color: red;
+  }
+  li:nth-child(14) {
+    grid-area: n;
+    background-color: white;
+    /* border-left: none;
+    border-bottom: none; */
+  }
+  li:nth-child(15) {
+    grid-area: o;
+    background-color: white;
+  }
+  li:nth-child(16) {
+    grid-area: p;
+    background-color: white;
+  }
+  li:nth-child(17) {
+    grid-area: q;
+    background-color: red;
+    border-bottom: none;
+    border-right: none;
+  }
+  li:nth-child(18) {
+    grid-area: r;
+    background-color: red;
+    border-bottom: none;
+    border-left: none;
+  }
+  li:nth-child(19) {
+    grid-area: s;
+    background-color:white;
+  }
+  li:nth-child(20) {
+    grid-area: t;
+    background-color: yellow;
+    border-bottom: none;
+  }
+
+  li:nth-child(21) {
+    grid-area: u;
+    background-color:white;
+    border-top: none;
+  }
+  li:nth-child(22) {
+    grid-area: v;
+    background-color: white;
+    border-bottom: none;
+  }
+
+  li:nth-child(23){
+    grid-area: w;
+    background-color: blue;
+    border-bottom: none;
+  }
+
+  li:nth-child(24) {
+    grid-area: x;
+    background-color: yellow;
+    border-bottom: none;
+    border-right: none;
+  }
+  li:nth-child(25) {
+    grid-area: y;
+    background-color: yellow;
+    border-bottom: none;
+    border-left: none;
+  }
+  li:nth-child(26){
+    grid-area: z;
+    background-color: white;
+    border-bottom: none;
+    border-right:none;
+  }
+
+li:nth-child(27) {
+    grid-area: ll;
+    background-color: white;
+    border-left: none;
+    border-bottom: none;
+  }
+
+li:nth-child(28) {
+    grid-area: kk;
+    background-color: white;
+    border-bottom: none;
+  }
+
+
+
